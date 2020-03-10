@@ -8,7 +8,7 @@ def mult(a, b):
     return a * b
 
 def div(a, b):
-    return a/b
+    return (a/b, a%b)
 
 def sub(a, b):
     return a - b
@@ -22,8 +22,8 @@ print("Sum = ", sum)
 prod = mult(num1, num2)
 print("Product = ", prod)
 
-quot = div(num1, num2)
-print("Quotient = ", quot)
+quot, rem = div(num1, num2)
+print("Quotient = ", quot, "\nRemainder = ", rem)
 
 diff = sub(num1, num2)
 print("Difference = ", diff)
