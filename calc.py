@@ -17,6 +17,7 @@ num1 = 5
 num2 = 7
 
 sum = add(num1, num2)
+time.sleep(5)
 print("Sum = ", sum)
 
 prod = mult(num1, num2)
